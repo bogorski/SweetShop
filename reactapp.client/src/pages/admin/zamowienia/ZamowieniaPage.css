@@ -1,0 +1,27 @@
+.selected-orderRow td {
+    color: white;
+    background-color: #8B5151 !important;
+    border-color: #8B5151 !important;
+}
+
+tr:nth-child(odd) td {
+    background-color: #e2cad2;
+}
+
+.orderRow{
+
+}
+
+.header th {
+    color: #8B5151;
+    background-color: #ffe0e0;
+}
+
+tbody {
+    cursor: pointer;
+    border-color: #8B5151;
+}
+
+thead {
+    border-color: #8B5151;
+}

@@ -1,0 +1,20 @@
+.btn {
+    background-color: #F7DAD9;
+}
+
+    .btn:hover {
+        background-color: #8B5151;
+    }
+
+.productContainer {
+    background-color: #F7DAD9;
+}
+
+.widthCard {
+    width: 350px !important;
+    height: 450px !important;
+}
+
+.cakeCard {
+
+}

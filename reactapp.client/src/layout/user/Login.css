@@ -1,0 +1,22 @@
+.badge {
+    background-color: #B23D67 !important;
+    color: white !important;
+    font-size: 0.9em !important;
+}
+
+.panel {
+    width: 250px;
+}
+
+.loginDiv {
+    background-color: #8B5151 !important;
+}
+
+    .loginDiv a {
+        background-color: #8B5151 !important;
+        color: #FFE0E0 !important;
+    }
+
+        .loginDiv a:hover {
+            color: #3B4B54;
+        }

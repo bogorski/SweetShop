@@ -1,0 +1,45 @@
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #8B5151;
+}
+
+.layout {
+    margin-top: 50px;
+    background-color: #ffe0e0;
+    height: 100px;
+    font-weight: bold;
+}
+
+.margin-x50 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.widthText {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #8B5151 !important;
+}
+
+    a:hover {
+        color: #3B4B54 !important;
+    }
+
+    a + div {
+        background-color: #8B5151 !important;
+        color: #FFE0E0 !important;
+    }
+
+.dropdown-menu a {
+    color: #FFE0E0 !important;
+}
+
+    .dropdown-menu a:hover {
+        background-color: #F7DAD9 !important;
+        color: #3B4B54 !important;
+    }

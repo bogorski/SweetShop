@@ -1,0 +1,107 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    font-size: 16px;
+}
+
+.calendar-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 160px;
+    height: 110px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.calendar-day-header {
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    height: 80px;
+}
+
+.calendar-empty {
+    border: none;
+}
+
+.calendar-date {
+    cursor: pointer;
+}
+
+    .calendar-date:hover div{
+        background-color: #f1f1f1;
+        color:black;
+    }
+    .calendar-date:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+
+.calendar-today {
+    background-color: #ffe0e0;
+    color: black;
+}
+
+.calendar-freeday {
+    font-size: 0.9em;
+    background-color: #8B5151;
+    color: white;
+}
+
+button {
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.calendar-info {
+    font-size: 0.9em;
+    color: black;
+    margin-top: 5px;
+}
+
+.calendar-holiday {
+    font-size: 0.9em;
+    background-color: #8B5151;
+    color: white;
+}
+
+.calendar-vacation {
+    font-size: 0.9em;
+    background-color: #ffeb3b;
+}
+.calendar-workday {
+    font-size: 0.9em;
+    background-color: white;
+}
+.calendar-delegation {
+    font-size: 0.9em;
+    background-color: #B23D67;
+    color: white;
+}

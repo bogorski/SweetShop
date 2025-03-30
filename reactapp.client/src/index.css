@@ -1,0 +1,28 @@
+.btn-primary {
+    color: #8B5151 !important;
+    background-color: #FFE0E0 !important;
+    border-color: #8B5151 !important;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #FFE0E0 !important;
+    color: #8B5151 !important;
+    font-weight: bold;
+}
+
+    .btn:hover {
+        background-color: #8B5151 !important;
+        color: #FFE0E0 !important;
+    }
+
+.form-control {
+    border-color: #8B5151 !important;
+
+}
+    .form-control:hover {
+        border-color: #8B5151 !important;
+    }
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(139, 81, 81, 0.45);
+    }

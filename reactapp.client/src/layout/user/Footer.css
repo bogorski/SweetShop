@@ -1,0 +1,22 @@
+.bgColor {
+    background-color: #8B5151;
+}
+
+.link {
+    color: #FFE0E0 !important;
+}
+
+li{
+    list-style: none;
+}
+
+.logoFooter {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: #FFE0E0;
+}
+
+.bold {
+    font-weight: bold;
+}
